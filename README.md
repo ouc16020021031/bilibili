@@ -8,5 +8,5 @@
 
 用MongoDB compass打开，connet：http://localhost:27017/
 
-数据存于scrapy_data/bilibili，有2912条
+数据存于scrapy_data/bilibili，大于等于2912条
 
