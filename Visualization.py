@@ -180,7 +180,7 @@ def scoreShowProcess(score_list, title_list, tags_list, show_range):
         score_list_cp1[current_max_index] = -1
     tagsShowProcess(max_score_tags) 
 
-
+# 上下两块内容选取一块运行
 
 """
     score_list_cp2.sort(reverse=True)
@@ -206,6 +206,8 @@ def scoreShowProcess(score_list, title_list, tags_list, show_range):
 plt.rcParams['font.sans-serif'] = ['SimHei']
 index_show_list, title_list, follow_list, play_list, score_list, tags_list, cv_list, count_list = readDatabase(
 )
+
+# 以下三条语句选择一条运行
 #indexShowProcess(index_show_list)
 #tagsShowProcess(tags_list)
 #cvShowProcess(cv_list)
