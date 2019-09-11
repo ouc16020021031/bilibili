@@ -1,4 +1,9 @@
-#####  该项目实现爬取bilibili番剧信息功能 
+###### 分工
+沈琢乔 爬取bilibili番剧信息数据并存入数据库
+刘祥瑞 数据可视化
+万路   答辩
+
+#####  实现爬取bilibili番剧信息功能 
 
 运行 [openMongo.py](openMongo.py)  开启数据库
 
